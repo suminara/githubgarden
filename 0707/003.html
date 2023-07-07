@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border-radius</title>
+    <style>
+        div{
+            background-color :rgb(228, 111, 218);
+            width: 100px;
+            height: 100px;
+            margin: 15px;
+            display: inline-flex;
+            align-items: flex-start;
+        }
+        .semi-circle{
+            height: 50px;
+            border-radius: 100px 100px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <section style="display: flex;">
+        <div style="border-radius: 50%;"> </div>
+        <div style="border-radius: 10%;"> </div>
+        <div style="border-radius: 100% 0% 0% 0%;"> </div>
+        <div style="border-radius: 100% 0%;"> </div>
+        <div style="border-radius: 0% 50% 0% 50%;"> </div>
+        <div class="semi-circle"> </div>
+    </section>
+</body>
+</html>
