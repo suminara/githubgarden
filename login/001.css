@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,p {
+    margin: 0;
+    text-decoration-line: none;
+}
+
+article {
+    width: 350px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 16px;
+    padding: 18px 15px 18px 15px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    background: #FFF;
+}
+
+.greet{
+    color: #000;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login-button {
+    width: 318px; height: 40px;
+display: flex;
+gap: 4px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 4px;
+background: #711BFF;
+margin-bottom: 1px;
+}
+
+.login-button>p{
+color: #FFF;
+font-family: 'SpoqaHanSansNeo-Regular';
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+a>img {
+    width: 64px; height: 18px;
+}
+
+div>img {
+    width: 16px; height: 16px;
+}
+
+.bottom-login a,p {
+    color: #767676;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-login,.right-login {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
