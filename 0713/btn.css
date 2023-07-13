@@ -1,0 +1,40 @@
+button {
+    width: 88px;
+height: 32px;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #CBD5DF;
+background-color: #2D3848;
+}
+
+button:hover, button:active{
+    color:#fff;
+    text-decoration: underline;
+}
+
+button:disabled{
+    color: #4A5568;
+    text-decoration: none;
+}
+
+button:nth-child(2){
+    color: #439AFF
+}
+
+button:nth-child(2):hover, button:nth-child(2):active{
+    color: #FEFEFE;
+    text-decoration: underline;
+    background-color: #439AFF;
+}
+
+button:nth-child(3){
+    color: #EB5757
+}
+
+button:nth-child(3):hover, button:nth-child(3):active{
+    color: #FEFEFE;
+    text-decoration: underline;
+    background-color: #EB5757;
+}
