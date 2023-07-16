@@ -1,0 +1,115 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+:root {
+    --gray-3:#828282;
+    --gray-4:#bdbdbd;
+    --gray-6:#f2f2f2;
+    --red:#eb5757;
+}
+
+h1,h2 {
+    margin: 0;
+}
+
+h1, .navi {
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+line-height: bold;
+}
+
+.movies{
+font-family: Noto Sans KR;
+font-style: normal;
+line-height: normal;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a>img{width: 180px;
+    height: 250px;
+    object-fit: cover;
+vertical-align: top;}
+.btn{display: none;}
+
+/* 리셋 */
+
+.wrap {
+    width: 1060px;
+    margin: auto;
+    background: var(--gray-6, #F2F2F2);
+    border: 2px solid var(--gray-4) ;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 40px 30px 30px;
+}
+
+h1 {
+    
+    color: #000;
+font-size: 24px;
+font-weight: 700;
+}
+
+.navi {
+    color: var(--gray-3);
+    width: 650px; height: auto;
+font-size: 16px;
+font-weight: 900;
+border-top: 2px solid var(--gray-4);
+margin: 37px auto 28px;
+padding: 28px 0 0;
+display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+/* movies 시작 */
+.movies {
+    width: 1003px;
+    background: #FFF;
+    padding: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 23px;
+
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 2px solid var(--gray-4)
+}
+
+.movie-wrap {
+    width: 220px; height: 400px;
+padding: 19px 20px 18px;
+
+    border-radius: 10px;
+border: 1px solid var(--gray-4, #BDBDBD);
+box-sizing: border-box;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+span{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.movie-info {
+    height: calc(13px * 1.6 *3 )
+}
+
+.info{
+    color: var(--gray-3);
+}
