@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그리드 실습</title>
+    <style>
+        .container {
+            width: 1000px; height: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+            grid-template-rows: repeat(auto-fill, minmax(100px, 100px));
+            gap:3px;
+            grid-template-areas: 
+            "blu blu blu yel yel"
+            "blu blu blu yel yel"
+            "pur pur ora yel yel"
+            "red red gre gre gre"
+            "red red gre gre gre"
+            ;
+        }
+        
+        .blu{grid-area: blu;
+        background-color: rgb(79, 153, 218);}
+        .yel{grid-area: yel;
+        background-color: rgb(253, 226, 104);}
+        .pur{grid-area: pur;
+        background-color: rgb(155, 107, 243);}
+        .ora{grid-area: ora;
+        background-color: rgb(255, 148, 27);}
+        .red{grid-area: red;
+        background-color: rgb(255, 131, 131);}
+        .gre{grid-area: gre;
+        background-color: rgb(108, 255, 103);}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blu">blue</div>
+        <div class="yel">yellow</div>
+        <div class="pur">purple</div>
+        <div class="ora">orange Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit iusto eos nemo aspernatur deserunt sint, dolores laudantium deleniti a ad blanditiis, nulla cumque tenetur at eaque similique, obcaecati id autem.</div>
+        <div class="red">red</div>
+        <div class="gre">green</div>
+    </div>
+</body>
+</html>
