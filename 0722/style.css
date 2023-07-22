@@ -1,0 +1,40 @@
+h1,p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg.png);
+    display:flex; justify-content:center; align-items:center; height:100vh;
+    background-size: cover;
+}
+
+.wrap>img {
+    display: block;
+    margin: auto;
+}
+
+.ground {
+    padding: 10px 20px 40px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 30px 30px;
+border-bottom: 10px solid #46260E;
+background: #9C6035;
+font-family: Arial;
+font-style: normal;
+line-height: normal;
+}
+
+.fox{
+    margin-bottom:10px;
+    font-size: 36px;
+font-weight: 700;
+color: #fff;
+}
+
+.fox-lorem{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E8BC9C;
+}
