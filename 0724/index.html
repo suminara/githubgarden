@@ -1,1 +1,113 @@
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="./css/vending.css">
+</head>
+<body>
+    <h1>
+        <img src="./img/cola-logo.png" alt="콜라콜라로고">
+    </h1>
+    <main class="main">
+        <!-- /////////////자판기//////////// -->
+        <section class="input">
+            <div class="input-drinks">
+                <h2 class="a11y">판매음료</h2>
+                <ul>
+                    <li>
+                        <button type="button" class="btn-drink">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-drink" disabled>
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-drink">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-drink">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-drink">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-drink">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            <span>[drink_name]</span>
+                            <strong>#원</strong>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="input-money">
+                <div class="inside-money">
+                    <h2>잔액:</h2>
+                    <p>#원</p>
+                </div>
+                <button type="button" class="change">거스름돈 반환</button>
+                <label for="money" class="a11y">입금액 입력</label>
+                <input type="number" id="money" placeholder="입금액 입력"/>
+                <button type="button" class="put">입금</button>
+                <div class="pick">
+                    <h2 class="a11y">장바구니</h2>
+                    <ul class="list">
+                        <li class="pick-drinks">
+                                <img src="./img/cola-original.png" alt="오리지널콜라">
+                                [drink_name]
+                                <strong>1</strong>
+                        </li>
+                        <li class="pick-drinks">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            [drink_name]
+                            <strong>1</strong>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="get">획득</button>
+            </div>
+        </section>
+        <!-- /////////////자판기/////////////// -->
+        <section class="wallet">
+            <div>
+                <h2>소지금:</h2>
+                <p>#원</p>
+            </div>
+        </section>
+        <section class="output">
+            <h2>획득한 음료</h2>
+            <div class="output-drinks">
+                <ul class="list">
+                    <li class="pick-drinks">
+                            <img src="./img/cola-original.png" alt="오리지널콜라">
+                            [drink_name]
+                            <strong>1</strong>
+                    </li>
+                </ul>
+            </div>
+            <p>총금액:#원</p>
+        </section>
+    </main>
+</body>
+</html>
